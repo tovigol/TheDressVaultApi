@@ -1,0 +1,15 @@
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\bin\Debug\net8.0\Dresses.Service.deps.json
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\bin\Debug\net8.0\Dresses.Service.dll
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\bin\Debug\net8.0\Dresses.Service.pdb
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\bin\Debug\net8.0\Dresses.Core.dll
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\bin\Debug\net8.0\Dresses.Core.pdb
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.csproj.AssemblyReference.cache
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.AssemblyInfoInputs.cache
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.AssemblyInfo.cs
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.csproj.CoreCompileInputs.cache
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses..06FBFBCE.Up2Date
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.dll
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\refint\Dresses.Service.dll
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.pdb
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\ref\Dresses.Service.dll
