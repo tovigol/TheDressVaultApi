@@ -10,9 +10,9 @@ namespace Dresses.Core.Services
     public interface IUserService
     {
         public List<Users> GetUsersAsync();
-        public Dresess GetByIdAsync(int id);
-        void Update(Dresess user);
-        public void AddAsync(Dresess newuser);
-        void UpdateAsync(Dresess value, int id);
+        public Dress GetByIdAsync(int id);
+        void Update(Dress user);
+        public void AddAsync(Dress newuser);
+        void UpdateAsync(Dress value, int id);
     }
 }

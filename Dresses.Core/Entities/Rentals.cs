@@ -11,6 +11,7 @@
             public DateTime start_date { get; set; }
             public DateTime end_date { get; set; }
             public int total_price { get; set; }
+            public string Status { get; set; }
 
             // הגדרת הקשר למשתמש (מי ששכר)
             public int user_id { get; set; }
@@ -20,7 +21,7 @@
             // הגדרת הקשר לשמלה (מה הושכר)
             public int dress_id { get; set; }
             [ForeignKey("dress_id")]
-            public Dresess Dress
+            public Dress Dress
             { get; set; }
         }
    }

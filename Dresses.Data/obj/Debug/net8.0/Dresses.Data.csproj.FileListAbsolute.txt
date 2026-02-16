@@ -15,3 +15,4 @@ C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.D
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Data\obj\Debug\net8.0\Dresses.Data.pdb
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Data\obj\Debug\net8.0\Dresses.Data.genruntimeconfig.cache
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Data\obj\Debug\net8.0\ref\Dresses.Data.dll
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Data\obj\Debug\net8.0\Dresses.Data.sourcelink.json

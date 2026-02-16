@@ -12,9 +12,9 @@ namespace Dresses.Core
     public class Mappingprofile:Profile
     {
         public Mappingprofile() {
-            CreateMap<Dresess, UserDto>().ReverseMap();
+            CreateMap<Dress, UserDto>().ReverseMap();
             CreateMap<Rentals, RentalDto>().ReverseMap();
-            CreateMap<Dresess,DressDto>().ReverseMap();
+            CreateMap<Dress,DressDto>().ReverseMap();
            
         }
     }

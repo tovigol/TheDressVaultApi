@@ -13,7 +13,7 @@ namespace TheDressVault
     {
         public MappingPostprofile()
         {
-            CreateMap<Dresess, DressPostModel>().ReverseMap();
+            CreateMap<Dress, DressPostModel>().ReverseMap();
             CreateMap<Rentals, RentalPostModel>().ReverseMap();
             CreateMap<Users, UsersPostModel>().ReverseMap();
         }

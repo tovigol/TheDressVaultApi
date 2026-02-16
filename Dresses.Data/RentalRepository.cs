@@ -24,10 +24,11 @@ namespace Dresses.Data
         public async Task<Rentals> GetByIdAsync(int id) {
             return await _context.Rentals.FirstOrDefaultAsync(d => d.rental_id == id);
         }
-        public async Task AddAsync(Rentals newRental)
+        public async Task<Rentals> AddAsync(Rentals newRental)
         {
-            _context.Rentals.Add(newRental);
-            await _context.SaveChangesAsync();
+                await _context.Rentals.AddAsync(newRental);
+                await _context.SaveChangesAsync();
+                return newRental;     
         }
         public async Task UpdateAsync(Rentals rental, int rental_id)
         {
@@ -38,6 +39,12 @@ namespace Dresses.Data
             existingRental.User = rental.User;
             await _context.SaveChangesAsync();
         }
-     
+        public async Task<IEnumerable<Rentals>> GetRentalsByDressIdAsync(int dressId)
+        {
+            return await _context.Rentals
+                .Where(r => r.dress_id == dressId)
+                .ToListAsync();
+        }
+
     }
 }

@@ -151,3 +151,5 @@ C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\TheDressV
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\TheDressVault\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\TheDressVault\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\TheDressVault\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\TheDressVault\bin\Debug\net8.0\appsettings.secrets.json
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\TheDressVault\obj\Debug\net8.0\TheDressVault.sourcelink.json

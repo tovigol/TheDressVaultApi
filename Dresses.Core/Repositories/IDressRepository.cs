@@ -9,9 +9,10 @@ namespace Dresses.Core.Repositories
 {
     public interface IDressRepository
     {
-        public Task<List<Dresess>> GetDressesAsync();
-        public Task<Dresess> GetByIdAsync(int id);
-        public Task UpdateAsync(Dresess dress,int id);
-        public Task AddAsync(Dresess newDress);
+        public Task<List<Dress>> GetDressesAsync();
+        public Task<Dress> GetByIdAsync(int id);
+        public Task UpdateAsync(Dress dress,int id);
+        public Task AddAsync(Dress newDress);
+   
     }
 }

@@ -4,7 +4,8 @@ using Dresses.Core.Entities;
 using Dresses.Core.Services;
 using AutoMapper;
 using Dresses.Core.DTO;
-
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace TheDressVault.Controllers
@@ -39,19 +40,19 @@ namespace TheDressVault.Controllers
             }
             return Ok(_mapper.Map<DressDto>(s));
         }
-
+        [Authorize(Policy = "OnlyManager")]
         // POST api/<DressesController>
         [HttpPost]
-        public ActionResult Post([FromBody] Dresess newDress)
+        public ActionResult Post([FromBody] Dress newDress)
         {
-            //var s = new Dress{ name =newDress.name, description= newDress .description, size= newDress.size, rental_price= newDress.rental_price};
+            
              _dressService.AddAsync(newDress);
             return Ok();
         }
-
+        [Authorize(Policy = "OnlyManager")]
         // PUT api/<DressesController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Dresess value)
+        public ActionResult Put(int id, [FromBody] Dress value)
         {
             var existingDress = _dressService.GetByIdAsync(id);
             if (existingDress == null)
@@ -64,6 +65,17 @@ namespace TheDressVault.Controllers
 
             return NoContent();
 
+        }
+        [HttpGet("by-business/{businessId}")]
+   
+        public async Task<ActionResult<IEnumerable<DressDto>>> GetDressesByBusiness(int businessId)
+        {
+            
+            var dresses = await _dressService.GetByBusinessIdAsync(businessId);
+
+            if (dresses == null) return NotFound();
+
+            return Ok(_mapper.Map<IEnumerable<DressDto>>(dresses));
         }
 
         // DELETE api/<DressesController>/5

@@ -42,3 +42,15 @@ app.UseShabbat();
 app.MapControllers();
 
 app.Run();
+
+builder.Configuration.AddJsonFile("appsettings.secrets.json",
+                                 optional: true,
+                                 reloadOnChange: true);
+
+var managerName = builder.Configuration["SystemSettings:ManagerUserName"];
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("OnlyManager", policy =>
+        policy.RequireUserName(managerName));
+});

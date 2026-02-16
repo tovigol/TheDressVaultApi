@@ -1,44 +1,68 @@
 ﻿using Dresses.Core.Entities;
 using Dresses.Core.Repositories;
+using Dresses.Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Dresses.Service
 {
-   public class RentalService
+    public class RentalService : IRentalsService
     {
         private readonly IRentalsRepositories _rentalRepository;
-        public RentalService(IRentalsRepositories RentalRepository)
+
+        public RentalService(IRentalsRepositories rentalRepository)
         {
-            _rentalRepository = RentalRepository;
+            _rentalRepository = rentalRepository;
         }
 
-        public IRentalsRepositories Get_rentalRepository()
-        {
-            return _rentalRepository;
-        }
-
-        public async Task<List<Rentals>> GetRentalAsync(IRentalsRepositories _rentalRepository)
+        public async Task<List<Rentals>> GetRentalsAsync()
         {
             return await _rentalRepository.GetRentalsAsync();
         }
+
         public async Task<Rentals> GetByIdAsync(int id)
         {
             return await _rentalRepository.GetByIdAsync(id);
         }
-        public async Task UpdateAsync(Rentals rental, int rental_id)
-        {
 
-            await _rentalRepository.UpdateAsync(rental, rental_id);
+        public async Task UpdateAsync(Rentals rental, int rentalId)
+        {
+          
+            await _rentalRepository.UpdateAsync(rental, rentalId);
         }
+
         public async Task AddAsync(Rentals newRental)
         {
-            await _rentalRepository.AddAsync(newRental);
-
+            await CreateRentalAsync(newRental);
         }
+        public async Task<bool> IsDressAvailableAsync(int dressId, DateTime startDate, DateTime endDate)
+        {
+
+            var existingRentals = await _rentalRepository.GetRentalsByDressIdAsync(dressId);
+
+
+            bool hasOverlap = existingRentals.Any(r =>
+                (r.Status == "Confirmed" || r.Status == "Pending") &&
+                startDate < r.end_date &&
+                endDate > r.start_date);
+
+            return !hasOverlap;
+        }
+
+        public async Task<Rentals> CreateRentalAsync(Rentals rental)
+        {
+
+            if (!await IsDressAvailableAsync(rental.dress_id, rental.start_date, rental.end_date))
+            {
+                throw new Exception("אופס... השמלה כבר תפוסה בתאריכים האלו.");
+            }
+
+
+            return await _rentalRepository.AddAsync(rental);
+        }
+
 
     }
 }

@@ -10,3 +10,4 @@ C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.C
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Core\obj\Debug\net8.0\Dresses.Core.pdb
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Core\obj\Debug\net8.0\ref\Dresses.Core.dll
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Core\obj\Debug\net8.0\Dresses.Core.csproj.AssemblyReference.cache
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Core\obj\Debug\net8.0\Dresses.Core.sourcelink.json

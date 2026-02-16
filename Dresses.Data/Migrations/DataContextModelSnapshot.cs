@@ -22,13 +22,37 @@ namespace Dresses.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Dresses.Core.Entities.Dresess", b =>
+            modelBuilder.Entity("Dresses.Core.Entities.Business", b =>
+                {
+                    b.Property<int>("business_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("business_id"));
+
+                    b.Property<string>("logoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nameBusiness")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("business_id");
+
+                    b.ToTable("Business");
+                });
+
+            modelBuilder.Entity("Dresses.Core.Entities.Dress", b =>
                 {
                     b.Property<int>("dress_id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("dress_id"));
+
+                    b.Property<int>("businessId")
+                        .HasColumnType("int");
 
                     b.Property<string>("description")
                         .IsRequired()
@@ -46,6 +70,8 @@ namespace Dresses.Data.Migrations
 
                     b.HasKey("dress_id");
 
+                    b.HasIndex("businessId");
+
                     b.ToTable("Dresses");
                 });
 
@@ -56,6 +82,13 @@ namespace Dresses.Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("rental_id"));
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("business_id")
+                        .HasColumnType("int");
 
                     b.Property<int>("dress_id")
                         .HasColumnType("int");
@@ -74,6 +107,8 @@ namespace Dresses.Data.Migrations
 
                     b.HasKey("rental_id");
 
+                    b.HasIndex("business_id");
+
                     b.HasIndex("dress_id");
 
                     b.HasIndex("user_id");
@@ -88,6 +123,9 @@ namespace Dresses.Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("user_id"));
+
+                    b.Property<int?>("business_id")
+                        .HasColumnType("int");
 
                     b.Property<string>("email")
                         .IsRequired()
@@ -107,12 +145,29 @@ namespace Dresses.Data.Migrations
 
                     b.HasKey("user_id");
 
+                    b.HasIndex("business_id");
+
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Dresses.Core.Entities.Dress", b =>
+                {
+                    b.HasOne("Dresses.Core.Entities.Business", "business")
+                        .WithMany("dresses")
+                        .HasForeignKey("businessId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("business");
                 });
 
             modelBuilder.Entity("Dresses.Core.Entities.Rentals", b =>
                 {
-                    b.HasOne("Dresses.Core.Entities.Dresess", "Dress")
+                    b.HasOne("Dresses.Core.Entities.Business", null)
+                        .WithMany("rentals")
+                        .HasForeignKey("business_id");
+
+                    b.HasOne("Dresses.Core.Entities.Dress", "Dress")
                         .WithMany("Rentals")
                         .HasForeignKey("dress_id")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -129,7 +184,23 @@ namespace Dresses.Data.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Dresses.Core.Entities.Dresess", b =>
+            modelBuilder.Entity("Dresses.Core.Entities.Users", b =>
+                {
+                    b.HasOne("Dresses.Core.Entities.Business", null)
+                        .WithMany("users")
+                        .HasForeignKey("business_id");
+                });
+
+            modelBuilder.Entity("Dresses.Core.Entities.Business", b =>
+                {
+                    b.Navigation("dresses");
+
+                    b.Navigation("rentals");
+
+                    b.Navigation("users");
+                });
+
+            modelBuilder.Entity("Dresses.Core.Entities.Dress", b =>
                 {
                     b.Navigation("Rentals");
                 });

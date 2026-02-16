@@ -16,28 +16,32 @@ namespace Dresses.Service
         {
             _dressRepository = dressRepository;
         }
-        public async Task<List<Dresess>> GetDressesAsync()
+        public async Task<List<Dress>> GetDressesAsync()
         {
 
             return await _dressRepository.GetDressesAsync();
         }
-        public async Task<Dresess> GetByIdAsync(int id)
+        public async Task<Dress> GetByIdAsync(int id)
         {
 
             return await _dressRepository.GetByIdAsync(id);
         }
      
-        public async Task UpdateAsync(Dresess dress, int id)
+        public async Task UpdateAsync(Dress dress, int id)
         {
 
            await _dressRepository.UpdateAsync(dress,id);
         }
-        public async Task AddAsync(Dresess newDress)
+        public async Task AddAsync(Dress newDress)
         {
              await _dressRepository.AddAsync(newDress);
 
         }
-
-
+        public async Task<IEnumerable<Dress>> GetByBusinessIdAsync(int businessId)
+        {
+            
+            var allDresses = await _dressRepository.GetDressesAsync();
+            return allDresses.Where(d => d.businessId == businessId);
+        }
     }
 }

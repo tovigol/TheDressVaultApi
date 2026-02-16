@@ -9,9 +9,11 @@ namespace Dresses.Core.Repositories
 {
     public interface IRentalsRepositories
     {
+
+        Task<IEnumerable<Rentals>> GetRentalsByDressIdAsync(int dressId);
         public Task<List<Rentals>> GetRentalsAsync();
         public Task<Rentals> GetByIdAsync(int id);
         public Task UpdateAsync(Rentals rental, int rental_id);
-        public Task AddAsync(Rentals newRental);
+        public Task<Rentals> AddAsync(Rentals newRental);
     }
 }

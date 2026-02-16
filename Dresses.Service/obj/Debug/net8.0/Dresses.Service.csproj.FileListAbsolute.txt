@@ -13,3 +13,4 @@ C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.S
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\refint\Dresses.Service.dll
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.pdb
 C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\ref\Dresses.Service.dll
+C:\טובי גולדשטיין\הפרויקט התקין\TheDressVault\Dresses.Service\obj\Debug\net8.0\Dresses.Service.sourcelink.json

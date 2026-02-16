@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Core\\Dresses.Core.csproj",
         "projectName": "Dresses.Core",
         "projectPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Core\\Dresses.Core.csproj",
-        "packagesPath": "C:\\Users\\talmid2\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\talmid6\\.nuget\\packages\\",
         "outputPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\talmid2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talmid6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -81,14 +81,14 @@
         "projectUniqueName": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Data\\Dresses.Data.csproj",
         "projectName": "Dresses.Data",
         "projectPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Data\\Dresses.Data.csproj",
-        "packagesPath": "C:\\Users\\talmid2\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\talmid6\\.nuget\\packages\\",
         "outputPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\talmid2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talmid6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -152,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -162,14 +162,14 @@
         "projectUniqueName": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Service\\Dresses.Service.csproj",
         "projectName": "Dresses.Service",
         "projectPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Service\\Dresses.Service.csproj",
-        "packagesPath": "C:\\Users\\talmid2\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\talmid6\\.nuget\\packages\\",
         "outputPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\talmid2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talmid6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -221,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -231,14 +231,14 @@
         "projectUniqueName": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\TheDressVault\\TheDressVault.csproj",
         "projectName": "TheDressVault",
         "projectPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\TheDressVault\\TheDressVault.csproj",
-        "packagesPath": "C:\\Users\\talmid2\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\talmid6\\.nuget\\packages\\",
         "outputPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\TheDressVault\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\talmid2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talmid6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -315,7 +315,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

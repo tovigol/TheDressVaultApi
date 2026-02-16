@@ -9,10 +9,12 @@ namespace Dresses.Core.Services
 {
     public interface IDressService
     {
-        public Task<List<Dresess>> GetDressesAsync();
+        public Task<List<Dress>> GetDressesAsync();
 
-        public Task<Dresess> GetByIdAsync(int id);
-        public Task UpdateAsync(Dresess dress,int id);
-        public Task AddAsync(Dresess newDress);
+        public Task<Dress> GetByIdAsync(int id);
+        public Task UpdateAsync(Dress dress,int id);
+        public Task AddAsync(Dress newDress);
+        public Task<IEnumerable<Dress>> GetByBusinessIdAsync(int businessId);
+
     }
 }

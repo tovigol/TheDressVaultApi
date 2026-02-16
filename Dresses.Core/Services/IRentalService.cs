@@ -10,7 +10,9 @@ namespace Dresses.Core.Services
 {
     public interface IRentalsService
     {
-  
+        
+        Task<bool> IsDressAvailableAsync(int dressId, DateTime startDate, DateTime endDate);
+        Task<Rentals> CreateRentalAsync(Rentals rental);
         public Task <List<Rentals>> GetRentalsAsync();
         public Task<Rentals> GetByIdAsync(int id);
         public Task UpdateAsync(Rentals rental, int rental_id);

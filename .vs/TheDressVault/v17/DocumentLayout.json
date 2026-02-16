@@ -3,16 +3,100 @@
   "WorkspaceRootPath": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\thedressvault\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|solutionrelative:thedressvault\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\thedressvault\\controllers\\dresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|solutionrelative:thedressvault\\controllers\\dresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\entities\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\entities\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B8A91C-FE80-457F-BB9C-6C60C1B887DF}|Dresses.Service\\Dresses.Service.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.service\\dressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B8A91C-FE80-457F-BB9C-6C60C1B887DF}|Dresses.Service\\Dresses.Service.csproj|solutionrelative:dresses.service\\dressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\services\\idressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\services\\idressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\services\\ibusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\services\\ibusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.data\\dressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|solutionrelative:dresses.data\\dressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.data\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|solutionrelative:dresses.data\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.data\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|solutionrelative:dresses.data\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\repositories\\irentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\repositories\\irentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\repositories\\idressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\repositories\\idressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\repositories\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\repositories\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\entities\\rentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\entities\\rentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\entities\\dresses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\entities\\dresses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|solutionrelative:dresses.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.data\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|solutionrelative:dresses.data\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\dresses.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\dresses.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.core\\dto\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4F5864-1B4F-4AE2-A00A-36A361C22E30}|Dresses.Core\\Dresses.Core.csproj|solutionrelative:dresses.core\\dto\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\thedressvault\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|solutionrelative:thedressvault\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\thedressvault\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|solutionrelative:thedressvault\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\thedressvault\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|solutionrelative:thedressvault\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\thedressvault\\appsettings.secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|solutionrelative:thedressvault\\appsettings.secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\thedressvault\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCBB4771-229B-482C-B04B-94D9F885933D}|TheDressVault\\TheDressVault.csproj|solutionrelative:thedressvault\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B8A91C-FE80-457F-BB9C-6C60C1B887DF}|Dresses.Service\\Dresses.Service.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.service\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B8A91C-FE80-457F-BB9C-6C60C1B887DF}|Dresses.Service\\Dresses.Service.csproj|solutionrelative:dresses.service\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{040E4892-362A-44C2-A512-936BD52FB28F}|Dresses.Data\\Dresses.Data.csproj|c:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\thedressvault\\dresses.data\\migrations\\20260119123302_finalstructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +110,318 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BusinessController.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Controllers\\BusinessController.cs",
+              "RelativeDocumentMoniker": "TheDressVault\\Controllers\\BusinessController.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Controllers\\BusinessController.cs",
+              "RelativeToolTip": "TheDressVault\\Controllers\\BusinessController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:36:45.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DressService.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Service\\DressService.cs",
+              "RelativeDocumentMoniker": "Dresses.Service\\DressService.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Service\\DressService.cs",
+              "RelativeToolTip": "Dresses.Service\\DressService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwC4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:31:55.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDressRepository.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Repositories\\IDressRepository.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Repositories\\IDressRepository.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Repositories\\IDressRepository.cs",
+              "RelativeToolTip": "Dresses.Core\\Repositories\\IDressRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:24:58.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDressService.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Services\\IDressService.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Services\\IDressService.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Services\\IDressService.cs",
+              "RelativeToolTip": "Dresses.Core\\Services\\IDressService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:01:22.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BusinessRepository.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\BusinessRepository.cs",
+              "RelativeDocumentMoniker": "Dresses.Data\\BusinessRepository.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\BusinessRepository.cs",
+              "RelativeToolTip": "Dresses.Data\\BusinessRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:56:00.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DressRepository.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\DressRepository.cs",
+              "RelativeDocumentMoniker": "Dresses.Data\\DressRepository.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\DressRepository.cs",
+              "RelativeToolTip": "Dresses.Data\\DressRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:28:57.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRentalRepository.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Repositories\\IRentalRepository.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Repositories\\IRentalRepository.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Repositories\\IRentalRepository.cs",
+              "RelativeToolTip": "Dresses.Core\\Repositories\\IRentalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T11:47:52.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentalRepository.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\RentalRepository.cs",
+              "RelativeDocumentMoniker": "Dresses.Data\\RentalRepository.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\RentalRepository.cs",
+              "RelativeToolTip": "Dresses.Data\\RentalRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T11:48:55.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Business.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Entities\\Business.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Entities\\Business.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Entities\\Business.cs",
+              "RelativeToolTip": "Dresses.Core\\Entities\\Business.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:32:19.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DressController.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Controllers\\DressController.cs",
+              "RelativeDocumentMoniker": "TheDressVault\\Controllers\\DressController.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Controllers\\DressController.cs",
+              "RelativeToolTip": "TheDressVault\\Controllers\\DressController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:25:40.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBusinessRepository.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Repositories\\IBusinessRepository.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Repositories\\IBusinessRepository.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Repositories\\IBusinessRepository.cs",
+              "RelativeToolTip": "Dresses.Core\\Repositories\\IBusinessRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:48:47.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Entities\\Users.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Entities\\Users.cs",
+              "RelativeToolTip": "Dresses.Core\\Entities\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:19:26.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rentals.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Entities\\Rentals.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Entities\\Rentals.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Entities\\Rentals.cs",
+              "RelativeToolTip": "Dresses.Core\\Entities\\Rentals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T11:42:21.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBusinessService.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Services\\IBusinessService.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Services\\IBusinessService.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Services\\IBusinessService.cs",
+              "RelativeToolTip": "Dresses.Core\\Services\\IBusinessService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:53:51.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dresses.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Entities\\Dresses.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\Entities\\Dresses.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Entities\\Dresses.cs",
+              "RelativeToolTip": "Dresses.Core\\Entities\\Dresses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T09:03:04.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Dresses.Data\\DataContext.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\DataContext.cs",
+              "RelativeToolTip": "Dresses.Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:28:50.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dresses.Core.csproj",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Dresses.Core.csproj",
+              "RelativeDocumentMoniker": "Dresses.Core\\Dresses.Core.csproj",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\Dresses.Core.csproj",
+              "RelativeToolTip": "Dresses.Core\\Dresses.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-26T11:25:55.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RentalDto.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\DTO\\RentalDto.cs",
+              "RelativeDocumentMoniker": "Dresses.Core\\DTO\\RentalDto.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Core\\DTO\\RentalDto.cs",
+              "RelativeToolTip": "Dresses.Core\\DTO\\RentalDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T12:55:12.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\appsettings.json",
+              "RelativeDocumentMoniker": "TheDressVault\\appsettings.json",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\appsettings.json",
+              "RelativeToolTip": "TheDressVault\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T12:32:55.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Program.cs",
+              "RelativeDocumentMoniker": "TheDressVault\\Program.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Program.cs",
+              "RelativeToolTip": "TheDressVault\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:53:15.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RentalController.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Controllers\\RentalController.cs",
+              "RelativeDocumentMoniker": "TheDressVault\\Controllers\\RentalController.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Controllers\\RentalController.cs",
+              "RelativeToolTip": "TheDressVault\\Controllers\\RentalController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA9wDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:25:47.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TheDressVault\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TheDressVault\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:25:50.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.secrets.json",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\appsettings.secrets.json",
+              "RelativeDocumentMoniker": "TheDressVault\\appsettings.secrets.json",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\TheDressVault\\appsettings.secrets.json",
+              "RelativeToolTip": "TheDressVault\\appsettings.secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T12:50:31.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Service\\RentalService.cs",
+              "RelativeDocumentMoniker": "Dresses.Service\\RentalService.cs",
+              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Service\\RentalService.cs",
+              "RelativeToolTip": "Dresses.Service\\RentalService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAuwA4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T11:27:19.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "20260119123302_FinalStructure.cs",
               "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\Migrations\\20260119123302_FinalStructure.cs",
               "RelativeDocumentMoniker": "Dresses.Data\\Migrations\\20260119123302_FinalStructure.cs",
@@ -39,43 +430,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T12:33:02.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RentalRepository.cs",
-              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\RentalRepository.cs",
-              "RelativeDocumentMoniker": "Dresses.Data\\RentalRepository.cs",
-              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\RentalRepository.cs",
-              "RelativeToolTip": "Dresses.Data\\RentalRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:29:08.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DressRepository.cs",
-              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\DressRepository.cs",
-              "RelativeDocumentMoniker": "Dresses.Data\\DressRepository.cs",
-              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\DressRepository.cs",
-              "RelativeToolTip": "Dresses.Data\\DressRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:28:57.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "Dresses.Data\\DataContext.cs",
-              "ToolTip": "C:\\\u05D8\u05D5\u05D1\u05D9 \u05D2\u05D5\u05DC\u05D3\u05E9\u05D8\u05D9\u05D9\u05DF\\\u05D4\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D4\u05EA\u05E7\u05D9\u05DF\\TheDressVault\\Dresses.Data\\DataContext.cs",
-              "RelativeToolTip": "Dresses.Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:28:50.999Z"
             }
           ]
         }

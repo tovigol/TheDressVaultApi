@@ -4,7 +4,7 @@ using Dresses.Core.Entities;
 using Dresses.Core.Services;
 using Dresses.Service;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Authorization;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace TheDressVault.Controllers
@@ -21,6 +21,7 @@ namespace TheDressVault.Controllers
             _rentalService = rentalService;
             _mapper= mapper;
     }
+        [Authorize(Policy = "OnlyManager")]
         // GET: api/<RentalController>
         [HttpGet]
         public ActionResult Get()
@@ -28,7 +29,7 @@ namespace TheDressVault.Controllers
             return Ok((_mapper.Map<List<RentalDto>>(_rentalService.GetRentalsAsync())));
 
         }
-
+        [Authorize(Policy = "OnlyManager")]
         // GET api/<RentalController>/5
         [HttpGet("{id}")]
         public ActionResult Get(int id)

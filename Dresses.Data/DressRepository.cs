@@ -15,18 +15,18 @@ namespace Dresses.Data
         {
             _context = context;
         }
-        public async Task<List<Dresess>> GetDressesAsync()
+        public async Task<List<Dress>> GetDressesAsync()
 
         {
             return await _context.Dresses.ToListAsync();
         }
-        public async Task<Dresess> GetByIdAsync(int id)
+        public async Task<Dress> GetByIdAsync(int id)
         {
             // דוגמה ליישום באמצעות ה-Repository
             return await _context.Dresses.FirstOrDefaultAsync(d => d.dress_id == id);
         }
 
-        public async Task UpdateAsync(Dresess dress, int id)
+        public async Task UpdateAsync(Dress dress, int id)
         {
             var existingDress = await _context.Dresses.FindAsync(id); 
             existingDress.description = dress.description;
@@ -36,7 +36,7 @@ namespace Dresses.Data
             existingDress.rental_price = dress.rental_price;
             await _context.SaveChangesAsync();
         }
-        public async Task AddAsync(Dresess newDress)
+        public async Task AddAsync(Dress newDress)
         {
             _context.Dresses.Add(newDress);
             await _context.SaveChangesAsync();

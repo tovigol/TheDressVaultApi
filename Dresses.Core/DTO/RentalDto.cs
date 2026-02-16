@@ -16,6 +16,6 @@ namespace Dresses.Core.DTO
         public int total_price { get; set; }
         public UserDto user { get; set; }
 
-        public List<Dresess> Dresses { get; set; }
+        public List<DressDto> Dresses { get; set; }
     }
 }
