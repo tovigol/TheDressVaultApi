@@ -24,16 +24,16 @@ namespace TheDressVault.Controllers
         [Authorize(Policy = "OnlyManager")]
         // GET: api/<UserController>
         [HttpGet]
-        public ActionResult Get()
+        public async Task<ActionResult> Get()
         {
-            return Ok(_mapper.Map<List<UserDto>>(_UserService.GetUsersAsync()));
+            return Ok((_mapper.Map<List<UserDto>>(await _UserService.GetUsersAsync())));
         }
         [Authorize(Policy = "OnlyManager")]
         // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public ActionResult Get(int id)
+        public async Task< ActionResult> Get(int id)
         {
-            var s = _UserService.GetByIdAsync(id);
+            var s = await _UserService.GetByIdAsync(id);
             if (s == null)
             {
                 return NotFound();
@@ -44,15 +44,15 @@ namespace TheDressVault.Controllers
 
         // POST api/<UserController>
         [HttpPost]
-        public ActionResult Post([FromBody] Dress newuser)
+        public async Task<ActionResult> Post([FromBody] Users newuser)
         {
-            _UserService.AddAsync(newuser);
-            return Ok();
+          await  _UserService.AddAsync(newuser);
+            return  Ok();
         }
 
         // PUT api/<UserController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Dress value)
+        public ActionResult Put(int id, [FromBody] Users value)
         {
             var existingDress = _UserService.GetByIdAsync(id);
             if (existingDress == null)

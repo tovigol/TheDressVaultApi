@@ -39,14 +39,10 @@ namespace Dresses.Service
         }
         public async Task<bool> IsDressAvailableAsync(int dressId, DateTime startDate, DateTime endDate)
         {
+   
+            if (startDate >= endDate) return false;
 
-            var existingRentals = await _rentalRepository.GetRentalsByDressIdAsync(dressId);
-
-
-            bool hasOverlap = existingRentals.Any(r =>
-                (r.Status == "Confirmed" || r.Status == "Pending") &&
-                startDate < r.end_date &&
-                endDate > r.start_date);
+            bool hasOverlap = await _rentalRepository.CheckOverlapExistsAsync(dressId, startDate, endDate);
 
             return !hasOverlap;
         }

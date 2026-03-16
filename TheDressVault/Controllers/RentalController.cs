@@ -24,17 +24,17 @@ namespace TheDressVault.Controllers
         [Authorize(Policy = "OnlyManager")]
         // GET: api/<RentalController>
         [HttpGet]
-        public ActionResult Get()
+        public async Task<ActionResult> Get()
         {
-            return Ok((_mapper.Map<List<RentalDto>>(_rentalService.GetRentalsAsync())));
+            return Ok((_mapper.Map<List<RentalDto>>(await _rentalService.GetRentalsAsync())));
 
         }
         [Authorize(Policy = "OnlyManager")]
         // GET api/<RentalController>/5
         [HttpGet("{id}")]
-        public ActionResult Get(int id)
+        public async Task<ActionResult> Get(int id)
         {
-            var s = _rentalService.GetByIdAsync(id);
+            var s =await _rentalService.GetByIdAsync(id);
             if (s == null)
             {
                 return NotFound();
@@ -45,24 +45,24 @@ namespace TheDressVault.Controllers
 
         // POST api/<RentalController>
         [HttpPost]
-        public ActionResult Post([FromBody] Rentals newRental)
+        public async Task<ActionResult> Post([FromBody] Rentals newRental)
         {
-            _rentalService.AddAsync(newRental);
+           await _rentalService.AddAsync(newRental);
             return Ok();
         }
 
         // PUT api/<RentalController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Rentals value)
+        public async Task<ActionResult> Put(int id, [FromBody] Rentals value)
         {
-            var existingRental = _rentalService.GetByIdAsync(id);
+            var existingRental =await _rentalService.GetByIdAsync(id);
             if (existingRental == null)
             {
 
                 return NotFound(new { Message = $"Dress with ID {id} not found." });
             }
 
-            _rentalService.UpdateAsync(value,id);
+            await _rentalService.UpdateAsync(value,id);
 
             return NoContent();
 

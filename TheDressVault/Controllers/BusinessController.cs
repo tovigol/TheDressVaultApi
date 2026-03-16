@@ -4,6 +4,7 @@ using Dresses.Core.Entities;
 using Dresses.Core.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -13,88 +14,66 @@ namespace TheDressVault.Controllers
     [ApiController]
     public class BusinessController : ControllerBase
     {
-        private readonly IDressService _dressService;
+        private readonly IBusinessService _businessService;
         private readonly IMapper _mapper;
-        public DressesController(IDressService dressService, IMapper mapper)
+        public BusinessController(IBusinessService businessService, IMapper mapper)
         {
-            _dressService = dressService;
+            _businessService = businessService;
             _mapper = mapper;
         }
 
         // GET: api/<DressesController>
         [HttpGet]
-        public ActionResult Get()
+        public async Task<ActionResult> Get()
         {
-            return Ok((_mapper.Map<List<DressDto>>(_dressService.GetDressesAsync())));
+            return Ok((_mapper.Map<List<Business>>(await _businessService.GetBusinessAsync())));
         }
 
         // GET api/<DressesController>/5
         [HttpGet("{id}")]
-        public ActionResult Get(int id)
+        public async Task<ActionResult> Get(int id)
         {
-            var s = _dressService.GetByIdAsync(id);
+            var s =await _businessService.GetBusinessByIdAsync(id);
             if (s == null)
             {
                 return NotFound();
             }
-            return Ok(_mapper.Map<DressDto>(s));
+            return Ok(_mapper.Map<Business>(s));
         }
         [Authorize(Policy = "OnlyManager")]
         // POST api/<DressesController>
         [HttpPost]
-        public ActionResult Post([FromBody] Dress newDress)
+        public async Task<ActionResult> Post([FromBody] Business newBusiness)
         {
 
-            _dressService.AddAsync(newDress);
-            return Ok();
+            if (!User.IsInRole(UserRole.SuperAdmin.ToString()))
+            {
+                return Unauthorized("רק מנהל המערכת הראשי יכול להוסיף עסקים חדשים.");
+            }
+           await _businessService.AddBusinessAsync(newBusiness);
+            
+            
+            return Ok("העסק נוסף בהצלחה!");
+
+          
         }
         [Authorize(Policy = "OnlyManager")]
         // PUT api/<DressesController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Dress value)
+        public async Task<ActionResult> Put(int id, [FromBody] Business value)
         {
-            var existingDress = _dressService.GetByIdAsync(id);
+            var existingDress =await _businessService.GetBusinessByIdAsync(id);
             if (existingDress == null)
             {
 
                 return NotFound(new { Message = $"Dress with ID {id} not found." });
             }
 
-            _dressService.UpdateAsync(value, id);
+            await _businessService.UpdateBusinessAsync(value, id);
 
             return NoContent();
 
         }
-        // GET: api/<ValuesController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/<ValuesController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/<ValuesController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<ValuesController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<ValuesController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+       
     }
 }

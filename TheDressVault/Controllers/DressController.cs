@@ -24,16 +24,16 @@ namespace TheDressVault.Controllers
 
         // GET: api/<DressesController>
         [HttpGet]
-        public ActionResult Get()
+        public async Task<ActionResult> Get()
         {
-            return Ok((_mapper.Map< List<DressDto>>(_dressService.GetDressesAsync())));
+            return Ok(_mapper.Map<List<DressDto>>(await _dressService.GetDressesAsync()));
         }
 
         // GET api/<DressesController>/5
         [HttpGet("{id}")]
-        public ActionResult Get(int id)
+        public async Task<ActionResult> Get(int id)
         {
-            var s = _dressService.GetByIdAsync(id);
+            var s =await _dressService.GetByIdAsync(id);
             if (s == null)
             {
                 return NotFound();
@@ -43,32 +43,32 @@ namespace TheDressVault.Controllers
         [Authorize(Policy = "OnlyManager")]
         // POST api/<DressesController>
         [HttpPost]
-        public ActionResult Post([FromBody] Dress newDress)
+        public async Task<ActionResult> Post([FromBody] Dress newDress)
         {
             
-             _dressService.AddAsync(newDress);
+            await _dressService.AddAsync(newDress);
             return Ok();
         }
         [Authorize(Policy = "OnlyManager")]
         // PUT api/<DressesController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Dress value)
+        public async Task<ActionResult> Put(int id, [FromBody] Dress value)
         {
-            var existingDress = _dressService.GetByIdAsync(id);
+            var existingDress =await _dressService.GetByIdAsync(id);
             if (existingDress == null)
             {
      
                 return NotFound(new { Message = $"Dress with ID {id} not found." });
             }
 
-            _dressService.UpdateAsync(value, id);
+            await _dressService.UpdateAsync(value, id);
 
             return NoContent();
 
         }
         [HttpGet("by-business/{businessId}")]
    
-        public async Task<ActionResult<IEnumerable<DressDto>>> GetDressesByBusiness(int businessId)
+        public async Task<ActionResult> GetDressesByBusiness(int businessId)
         {
             
             var dresses = await _dressService.GetByBusinessIdAsync(businessId);

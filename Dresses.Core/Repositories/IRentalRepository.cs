@@ -15,5 +15,6 @@ namespace Dresses.Core.Repositories
         public Task<Rentals> GetByIdAsync(int id);
         public Task UpdateAsync(Rentals rental, int rental_id);
         public Task<Rentals> AddAsync(Rentals newRental);
+       public Task<bool> CheckOverlapExistsAsync(int dressId, DateTime start, DateTime end);
     }
 }

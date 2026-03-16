@@ -1,4 +1,5 @@
 ﻿using Dresses.Core.Entities;
+using Dresses.Core.Enums;
 using Dresses.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -44,6 +45,18 @@ namespace Dresses.Data
             return await _context.Rentals
                 .Where(r => r.dress_id == dressId)
                 .ToListAsync();
+        }
+        public async Task<bool> CheckOverlapExistsAsync(int dressId, DateTime start, DateTime end)
+        {
+            return await _context.Rentals.AnyAsync(r =>
+                r.dress_id == dressId &&
+                (r.Status == RentalStatus.Ordered ||
+                 r.Status == RentalStatus.Paid ||
+                 r.Status == RentalStatus.PickedUp ||
+                 r.Status == RentalStatus.Late) &&
+                start < r.end_date &&
+                end > r.start_date
+            );
         }
 
     }

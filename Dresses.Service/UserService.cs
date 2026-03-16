@@ -26,5 +26,13 @@ namespace Dresses.Service
           
             return await _UserRepository.GetByIdAsync(id);
         }
+        public async Task AddAsync(Users newuser)
+        {
+            await _UserRepository.AddAsync(newuser);
+        }
+        public async Task UpdateAsync(Users value, int id)
+        {
+            await _UserRepository.UpdateAsync(value, id);
+        }
     }
 }
