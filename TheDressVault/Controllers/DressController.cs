@@ -23,6 +23,7 @@ namespace TheDressVault.Controllers
         }
 
         // GET: api/<DressesController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult> Get()
         {
@@ -30,6 +31,7 @@ namespace TheDressVault.Controllers
         }
 
         // GET api/<DressesController>/5
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(int id)
         {

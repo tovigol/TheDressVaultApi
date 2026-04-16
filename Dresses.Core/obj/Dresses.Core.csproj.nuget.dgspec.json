@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Core\\Dresses.Core.csproj": {}
+    "C:\\טובי גולדשטיין\\TheDressVaultApi\\Dresses.Core\\Dresses.Core.csproj": {}
   },
   "projects": {
-    "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Core\\Dresses.Core.csproj": {
+    "C:\\טובי גולדשטיין\\TheDressVaultApi\\Dresses.Core\\Dresses.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Core\\Dresses.Core.csproj",
+        "projectUniqueName": "C:\\טובי גולדשטיין\\TheDressVaultApi\\Dresses.Core\\Dresses.Core.csproj",
         "projectName": "Dresses.Core",
-        "projectPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Core\\Dresses.Core.csproj",
+        "projectPath": "C:\\טובי גולדשטיין\\TheDressVaultApi\\Dresses.Core\\Dresses.Core.csproj",
         "packagesPath": "C:\\Users\\talmid6\\.nuget\\packages\\",
-        "outputPath": "C:\\טובי גולדשטיין\\הפרויקט התקין\\TheDressVault\\Dresses.Core\\obj\\",
+        "outputPath": "C:\\טובי גולדשטיין\\TheDressVaultApi\\Dresses.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

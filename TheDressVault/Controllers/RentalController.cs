@@ -44,6 +44,7 @@ namespace TheDressVault.Controllers
 
 
         // POST api/<RentalController>
+        [Authorize(Roles = "Customer")]
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] Rentals newRental)
         {
@@ -52,6 +53,7 @@ namespace TheDressVault.Controllers
         }
 
         // PUT api/<RentalController>/5
+        [Authorize(Roles = "Customer")]
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] Rentals value)
         {

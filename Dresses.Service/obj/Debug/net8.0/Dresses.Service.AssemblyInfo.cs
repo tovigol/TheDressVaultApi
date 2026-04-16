@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dresses.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0db759cd3a31be5812420ed8e3c644f21cfe1d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a546dc19505dade481877e2e85d009ce36e619ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dresses.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dresses.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

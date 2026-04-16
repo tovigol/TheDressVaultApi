@@ -23,6 +23,7 @@ namespace TheDressVault.Controllers
         }
         [Authorize(Policy = "OnlyManager")]
         // GET: api/<UserController>
+
         [HttpGet]
         public async Task<ActionResult> Get()
         {
@@ -43,6 +44,7 @@ namespace TheDressVault.Controllers
 
 
         // POST api/<UserController>
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] Users newuser)
         {
@@ -51,6 +53,7 @@ namespace TheDressVault.Controllers
         }
 
         // PUT api/<UserController>/5
+        [AllowAnonymous]
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Users value)
         {
