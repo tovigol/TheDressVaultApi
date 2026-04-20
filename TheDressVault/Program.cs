@@ -5,6 +5,7 @@ using Dresses.Data;
 using Dresses.Service;
 using System.Text.Json.Serialization;
 using Dresses.Core;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +41,24 @@ app.UseAuthorization();
 app.UseShabbat();
 
 app.MapControllers();
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<DataContext>();
+    dbContext.Database.Migrate(); 
+}
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<DataContext>(); // או MyDbContext
+        context.Database.Migrate(); // פקודה זו בודקת את החיבור ומריצה שינויים
+    }
+    catch (Exception ex)
+    {
+
+    }
+}
 
 app.Run();
 

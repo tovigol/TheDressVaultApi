@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheDressVault")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a546dc19505dade481877e2e85d009ce36e619ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19e27a0ecb467235fd320d47bd74d22ab8b7a8d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheDressVault")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheDressVault")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

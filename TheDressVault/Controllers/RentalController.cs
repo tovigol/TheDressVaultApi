@@ -21,7 +21,7 @@ namespace TheDressVault.Controllers
             _rentalService = rentalService;
             _mapper= mapper;
     }
-        [Authorize(Policy = "OnlyManager")]
+        [Authorize(Roles = "BusinessManager")]
         // GET: api/<RentalController>
         [HttpGet]
         public async Task<ActionResult> Get()
@@ -29,7 +29,7 @@ namespace TheDressVault.Controllers
             return Ok((_mapper.Map<List<RentalDto>>(await _rentalService.GetRentalsAsync())));
 
         }
-        [Authorize(Policy = "OnlyManager")]
+        [Authorize(Roles = "customer")]
         // GET api/<RentalController>/5
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(int id)

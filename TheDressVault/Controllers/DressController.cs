@@ -42,7 +42,7 @@ namespace TheDressVault.Controllers
             }
             return Ok(_mapper.Map<DressDto>(s));
         }
-        [Authorize(Policy = "OnlyManager")]
+        [Authorize(Roles = "BusinessManager")]
         // POST api/<DressesController>
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] Dress newDress)
@@ -51,7 +51,7 @@ namespace TheDressVault.Controllers
             await _dressService.AddAsync(newDress);
             return Ok();
         }
-        [Authorize(Policy = "OnlyManager")]
+        [Authorize(Roles = "BusinessManager")]
         // PUT api/<DressesController>/5
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] Dress value)

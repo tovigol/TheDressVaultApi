@@ -53,10 +53,11 @@ namespace TheDressVault.Controllers
         }
 
         // PUT api/<UserController>/5
-        [AllowAnonymous]
+        [Authorize(Roles = "Customer")]
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Users value)
         {
+
             var existingDress = _UserService.GetByIdAsync(id);
             if (existingDress == null)
             {
